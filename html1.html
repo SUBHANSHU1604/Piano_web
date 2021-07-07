@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <script src="js1.js" defer></script>
+    <title>Piano</title>
+</head>
+<body>
+    <div align="center">
+    <div><h1 id="borderimg">
+        <span>
+            Piano
+        </span></h1>
+        <!-- <h1 id="borderimg"><span>
+            Piano
+        </span></h1> -->
+    </div>
+
+    <div id="ibar">
+    <h3 style="font-family: Arial, Helvetica, sans-serif;" font-size:large >It's play time!!!</h3>
+    </div>
+    </div>
+    <br>
+    <div class="piano">
+        <div data-note = "A" class="key white"></div>
+        <div data-note = "B" class="key black"></div>
+
+        <div  data-note="C" class="key white"></div>
+        <div data-note = "Db" class="key black"></div>
+        <div  data-note="D" class="key white"></div>
+        
+        <div data-note = "E" class="key black"></div>
+        <div  data-note="Eb" class="key white"></div>
+        <div data-note = "F" class="key white"></div>
+        
+        <div  data-note="Gb" class="key black"></div>
+        <div data-note = "G" class="key white"></div>
+        <div  data-note="Ab" class="key black"></div>
+        
+        <div data-note = "A" class="key white"></div>
+        <div  data-note="Bb" class="key black"></div>
+        <div data-note = "B" class="key white"></div>
+
+        <div data-note = "F" class="key white"></div>
+        <div data-note = "D" class="key black"></div>
+        <div data-note = "E" class="key white"></div>
+
+        <div data-note = "Gb" class="key black"></div>
+        <div data-note = "G" class="key white"></div>
+    </div>
+    <audio src="notes/C.mp3" id="C"></audio>
+    <audio src="notes/Db.mp3" id="Db"></audio>
+    <audio src="notes/D.mp3" id="D"></audio>
+
+    <audio src="notes/E.mp3" id="E"></audio>
+    <audio src="notes/Eb.mp3" id="Eb"></audio>
+    <audio src="notes/F.mp3" id="F"></audio>
+    
+    <audio src="notes/Gb.mp3" id="Gb"></audio>
+    <audio src="notes/G.mp3" id="G"></audio>
+    <audio src="notes/Ab.mp3" id="Ab"></audio>
+
+    <audio src="notes/A.mp3" id="A"></audio>
+    <audio src="notes/Bb.mp3" id="Bb"></audio>
+    <audio src="notes/B.mp3" id="B"></audio>
+    <br><br>
+    <div align="center" style="font-family: Arial, Helvetica, sans-serif; font-size: large;">
+        <div id="wish"> Wish to change the Color of the Keyboard.
+        <br>Change it from here.<br> <br></div>
+        <button onclick="changecolor()" id="button">
+            Change
+        </button>
+    </div>
+    <!-- <script> -->
+        
+<!-- // function changecolor(){
+//     var rw = Math.floor(Math.random()*256);
+//     var gw = Math.floor(Math.random()*256);
+//     var bw = Math.floor(Math.random()*256);
+
+//     var rb = Math.floor(Math.random()*256);
+//     var gb = Math.floor(Math.random()*256);
+//     var bb = Math.floor(Math.random()*256);
+
+//     var wc = "rgb("+rw+","+gw+","+bw+")";
+//     var bc = "rgb("+rb+","+gb+","+bb+")";
+//     // console.log(wc);
+//     // console.log(bc);
+//     document.getElementById("key white").style.backgroundcolor=wc;
+//     document.getElementById("key black").style.backgroundcolor=bc;
+
+//     </script> -->
+</body>
+</html>
